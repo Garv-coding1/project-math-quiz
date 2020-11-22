@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz Game</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+</head>
+<body style="background:linear-gradient(#fc0303 0%,#fc039d 100%);">
+<center>
+	<h1>Math Quiz Game!</h1>
+	<br>
+	<img class="col-lg-12 col-sm-12 col-xs-12" src ="https://media.istockphoto.com/vectors/math-linear-mathematics-education-circle-background-with-geometrical-vector-id611195980?b=1&k=6&m=611195980&s=612x612&w=0&h=sRumGXIcv9ARED3310qBvDIjXMQyhS1DzzxNqNenNfI=">
+	<div class="col-lg-5 col-sm-9 col-xs-12 login_store" style="border-style: ridge; border-width: 3px; border-color: cyan;">
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+		<h2>Player 1 Login</h2>
+		<label>Username :</label>
+		<input placeholder="Player 1 Username" class="form-control" id="player1_login_input" type = "text">
+		<br>
+	</div>
+	<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+		<h2>Player 2 Login</h2>
+		<label>Username :</label>
+		<input placeholder="Player 2 Username" class="form-control" id="player2_login_input"  type = "text">
+		<br>
+	</div>
+		
+	<br>
+	<button class = "login" onclick = "addUser()" style = "width: 30%;">Login<span class="glyphicon glyphicon-chevron-right"></span></button>
+</div>
+	<script src = "login.js"></script>
+</center>
+</body>
+</html>
